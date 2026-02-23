@@ -39,7 +39,7 @@ let guestList = `Guests:
 alert(guestList); // uma lista de convidados, múltiplas linhas
 ```
 
-Soa natural, certo? Mas aspas simples ou duplas não funcionam dessa maneira.
+Parece natural, certo? Mas aspas simples ou duplas não funcionam dessa maneira.
 
 Se nós as usarmos e tentarmos utilizar múltiplas linhas, haverá um erro:
 
@@ -50,7 +50,7 @@ let guestList = "Guests: // Error: Unexpected token ILLEGAL
 
 Aspas simples e duplas vêm de tempos antigos da criação da linguagem, quando a necessidade por strings em múltiplas linhas não era levada em conta. Crases surgiram bem mais tarde e, assim, são mais versáteis.
 
-Crases também nos permite especificar uma "template function" antes da primeira crase. A sintaxe é: <code>func&#96;string&#96;</code>. A função `func` é chamada automaticamente, recebe a string e as expressões incorporadas e pode as processar. Esse recurso é chamado de "tagged templates", raramente visto, mas você pode ler mais sobre em MDN: [Template literals](mdn:/JavaScript/Reference/Template_literals#Tagged_templates).
+Crases também nos permite especificar uma "template function" antes da primeira crase. A sintaxe é: <code>func&#96;string&#96;</code>. A função `func` é chamada automaticamente, recebe a string e as expressões incorporadas e pode as processar. Esse recurso é chamado de "tagged templates", raramente visto, mas você pode ler mais sobre em MDN: [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
 
 ## Caracteres especiais
 
