@@ -284,7 +284,7 @@ if (str.indexOf("Widget")) {
 }
 ```
 
-o `alert` no exemplo acima não é mostrado porque `str.indexOf("Widget")` retorna `0` (significando que foi encontrado na posição de início). Certo, mas `if` considera `0` como `false`.
+O `alert` no exemplo acima não é mostrado porque `str.indexOf("Widget")` retorna `0` (significando que foi encontrado na posição de início). Certo, mas `if` considera `0` como `false`.
 
 Então, devemos checar através do `-1`, dessa forma:
 
